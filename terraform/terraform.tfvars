@@ -17,7 +17,7 @@ container_name        = "dsafsae"
 container_access_type = "private" #
 
 ##### Variables - Key Vault del RAC #####
-key_vault_name = "sdfds"
+key_vault_name = "testeuteonekv"
 key_vault_sku  = "standard" # ejemplo: "standard"
 
 
