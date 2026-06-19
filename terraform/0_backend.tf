@@ -6,6 +6,7 @@ terraform {
     storage_account_name = "stgutpdavid2026gen4j"
     container_name       = "tfstate-user1"
     key                  = "terraform.tfstate"
+    use_azuread_auth     = true
   }
 
   required_providers {
