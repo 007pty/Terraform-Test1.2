@@ -30,7 +30,7 @@ jobs:
         run: terraform -version
 
       - name: Set Github URL
-        run: git config --global url."https://oauth2:${{ secrets.GH_ACCESS_TOKEN }}@github.com".insteadOf https://github.com
+        run: git config --global url."https://oauth2:${{ secrets.GITHUB_TOKEN }}@github.com".insteadOf https://github.com
           
       - name: Find directories with .tf files
         id: find-dirs
