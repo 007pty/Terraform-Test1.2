@@ -3,7 +3,7 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "rg-utpdavid2026-GEN-cc"
-    storage_account_name = "stgutpdavid2026gen4jcc"
+    storage_account_name = "stgutpdavid2026cc"
     container_name       = "tfstate-user1"
     key                  = "terraform.tfstate"
     use_azuread_auth     = true
